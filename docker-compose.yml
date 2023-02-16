@@ -24,7 +24,6 @@ services:
       - APP_KEY=${APP_KEY:-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX}
       - APP_ENV=${APP_ENV:-local}
       - APP_URL=${APP_URL:-http://localhost}
-      - APP_NAME=${APP_NAME:-squidmin}
       - LOG_CHANNEL=${LOG_CHANNEL:-stderr}
       - LOG_STDERR_FORMATTER=${LOG_STDERR_FORMATTER:-Monolog\Formatter\JsonFormatter}
       - DB_CONNECTION=${DB_CONNECTION:-mysql}
